@@ -16,7 +16,7 @@ temperature = data_json["hourly"]["temperature_2m"][-1]
 circle_liste = []
 
 pygame.init()
-screen = pygame.display.set_mode((1920, 1080))
+screen = pygame.display.set_mode()
 pygame.display.set_caption('Wallpaper')
 clock = pygame.time.Clock()
 running = True
